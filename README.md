@@ -12,3 +12,5 @@ The dataset consists of 4232 images each of different pixel values. Each of the 
 I have trained Convolutional Neural Network written in Keras to predict the type of flower on the validation set.  Also used ImageDataGenerator to augment the training set and avoid overfitting problem and a LR annealer to schedule the learning rate.
 
 Finally the accuracy on the validation set using the self-laid ConvNet is close to 80%.
+
+Lastly I have also used transfer learning and used the pretrained VGG model and then fine tune it to achieve even greater validation accuracy of close to 93%.
